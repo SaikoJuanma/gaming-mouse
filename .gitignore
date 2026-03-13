@@ -1,0 +1,5 @@
+pcb/*
+!pcb/library/
+!pcb/*.kicad_pcb
+!pcb/*.kicad_pro
+!pcb/*.kicad_sch
