@@ -1,0 +1,106 @@
+(footprint "TRIM_EC10E1220501"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -2.828385 -5.641775 0)
+		(layer "F.SilkS")
+		(uuid "1662ba40-e232-4d8a-8dd2-d9cc8c3b0820")
+		(effects
+			(font
+				(size 1.001205 1.001205)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TRIM_EC10E1220501"
+		(at 4.798145 4.367845 0)
+		(layer "F.Fab")
+		(uuid "b9143fbe-a480-41fa-924e-6819332629c5")
+		(effects
+			(font
+				(size 1.000654 1.000654)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60be5ff8-b7c7-4608-a2bf-f50467c5c95b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7a85046-6fc4-4a58-a520-0e219a5cc989")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "" np_thru_hole circle
+		(at -5.4 -2)
+		(size 2 2)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "fa6437c2-28a5-44c8-9b27-c9704bb3617e")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.4 -2)
+		(size 2 2)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "7906dc9b-9c52-489d-8de4-2837943cd0e7")
+	)
+	(pad "A" thru_hole oval
+		(at -2.5 0)
+		(size 1.508 3.016)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "2e0fc8d8-be39-4522-ac06-f97063aa6414")
+	)
+	(pad "B" thru_hole oval
+		(at 0 0)
+		(size 1.508 3.016)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "d81fd68f-49cb-44a1-a4ff-606de68fcd24")
+	)
+	(pad "C" thru_hole oval
+		(at 2.5 0)
+		(size 1.508 3.016)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "3c277624-2478-468b-9f1b-c25fa2d709cc")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/mouse_library/3d_models/ec10e1220501.stp"
+		(offset
+			(xyz 0.5 -0.5 9)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -180)
+		)
+	)
+)
