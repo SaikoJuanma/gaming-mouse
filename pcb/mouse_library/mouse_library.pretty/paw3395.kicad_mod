@@ -391,4 +391,15 @@
 		)
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/mouse_library/3d_models/PMW3395 v12.step"
+		(offset
+			(xyz 0 1 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )

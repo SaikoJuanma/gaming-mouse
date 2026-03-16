@@ -672,4 +672,15 @@
 		(uuid "a7d3c6f6-603c-41b4-a77f-be7d098bf391")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/mouse_library/3d_models/NRF54L15-QFAA-R--3DModel-STEP-269445.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

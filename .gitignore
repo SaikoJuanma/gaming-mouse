@@ -1,5 +1,6 @@
 pcb/*
-!pcb/library/
+!pcb/mouse_library/
 !pcb/*.kicad_pcb
 !pcb/*.kicad_pro
 !pcb/*.kicad_sch
+*.bak
