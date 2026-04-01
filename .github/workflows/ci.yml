@@ -1,0 +1,108 @@
+name: PCB CI
+
+on:
+  push:
+    paths:
+      - 'pcb/**'
+  pull_request:
+    paths:
+      - 'pcb/**'
+
+jobs:
+  drc-erc:
+    name: DRC / ERC
+    runs-on: ubuntu-latest
+    container:
+      image: kicad/kicad:10.0
+      options: --user root
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run ERC (schematic)
+        id: erc
+        run: |
+          kicad-cli sch erc \
+            --output erc_report.json \
+            --format json \
+            --exit-code-violations \
+            pcb/mouse-pcb.kicad_sch
+
+      - name: Run DRC (PCB)
+        id: drc
+        run: |
+          kicad-cli pcb drc \
+            --output drc_report.json \
+            --format json \
+            --exit-code-violations \
+            pcb/mouse-pcb.kicad_pcb
+
+      - name: Upload violation reports
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: violation-reports
+          path: |
+            erc_report.json
+            drc_report.json
+
+  render:
+    name: PCB Render
+    runs-on: ubuntu-latest
+    container:
+      image: kicad/kicad:10.0
+      options: --user root
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Render PCB (head / push)
+        run: |
+          mkdir -p renders
+          kicad-cli pcb export svg \
+            --output renders/ \
+            --layers F.Cu,B.Cu,In1.Cu,In2.Cu,F.SilkS,B.SilkS,Edge.Cuts \
+            --mode-multi \
+            pcb/mouse-pcb.kicad_pcb
+
+      - name: Upload head render
+        uses: actions/upload-artifact@v4
+        with:
+          name: pcb-render-head
+          path: renders/
+
+      - name: Render base branch (PR only)
+        if: github.event_name == 'pull_request'
+        run: |
+          git fetch origin ${{ github.base_ref }} --depth=1
+          git checkout origin/${{ github.base_ref }} -- pcb/mouse-pcb.kicad_pcb
+          mkdir -p renders-base
+          kicad-cli pcb export svg \
+            --output renders-base/ \
+            --layers F.Cu,B.Cu,In1.Cu,In2.Cu,F.SilkS,B.SilkS,Edge.Cuts \
+            --mode-multi \
+            pcb/mouse-pcb.kicad_pcb
+
+      - name: Upload base render (PR only)
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: pcb-render-base
+          path: renders-base/
+
+      - name: Post PR comment with render links
+        if: github.event_name == 'pull_request'
+        uses: peter-evans/create-or-update-comment@v3
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            ## PCB Renders
+
+            Visual diff artifacts are attached to this workflow run.
+            Download and compare to review PCB changes:
+
+            - **Head (this PR):** `pcb-render-head` artifact
+            - **Base (`${{ github.base_ref }}`):** `pcb-render-base` artifact
+
+            [View workflow run artifacts](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})
+          edit-mode: replace

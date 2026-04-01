@@ -1,0 +1,70 @@
+name: Release Production Files
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  production-files:
+    name: Generate & Upload Production Files
+    runs-on: ubuntu-latest
+    container:
+      image: kicad/kicad:10.0
+      options: --user root
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create output directories
+        run: mkdir -p production/{gerbers,drill,bom,schematic,positions}
+
+      - name: Export Gerbers
+        run: |
+          kicad-cli pcb export gerbers \
+            --output production/gerbers/ \
+            --layers F.Cu,B.Cu,In1.Cu,In2.Cu,F.SilkS,B.SilkS,F.Mask,B.Mask,F.Paste,B.Paste,Edge.Cuts \
+            --use-drill-file-origin \
+            pcb/mouse-pcb.kicad_pcb
+
+      - name: Export Drill files
+        run: |
+          kicad-cli pcb export drill \
+            --output production/drill/ \
+            --format excellon \
+            --units mm \
+            --separate-files \
+            pcb/mouse-pcb.kicad_pcb
+
+      - name: Export BOM
+        run: |
+          kicad-cli sch export bom \
+            --output production/bom/bom.csv \
+            --format csv \
+            pcb/mouse-pcb.kicad_sch
+
+      - name: Export Schematic PDF
+        run: |
+          kicad-cli sch export pdf \
+            --output production/schematic/schematic.pdf \
+            pcb/mouse-pcb.kicad_sch
+
+      - name: Export Pick & Place (CPL)
+        run: |
+          kicad-cli pcb export pos \
+            --output production/positions/ \
+            --format csv \
+            --units mm \
+            --side both \
+            pcb/mouse-pcb.kicad_pcb
+
+      - name: Package production ZIP
+        run: |
+          cd production
+          zip -r ../mouse-pcb-production-${GITHUB_REF_NAME}.zip .
+
+      - name: Attach ZIP to GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: mouse-pcb-production-${{ github.ref_name }}.zip
