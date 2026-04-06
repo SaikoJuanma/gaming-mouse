@@ -6784,7 +6784,7 @@
 	)
 	(global_label "SCLK"
 		(shape input)
-		(at 140.97 165.1 180)
+		(at 143.51 168.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6794,7 +6794,7 @@
 		)
 		(uuid "06982338-fb57-4dbd-8413-cfbf66d6e7fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 133.2072 165.1 0)
+			(at 135.7472 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11394,7 +11394,7 @@
 	)
 	(symbol
 		(lib_id "mouse_library:D2FC-F-7N20M")
-		(at 455.93 184.15 0)
+		(at 280.67 190.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11405,7 +11405,7 @@
 		(fields_autoplaced yes)
 		(uuid "5dd9910d-0c26-412e-ab80-fce97cf68267")
 		(property "Reference" "SW1"
-			(at 477.52 172.72 0)
+			(at 302.26 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11415,7 +11415,7 @@
 			)
 		)
 		(property "Value" "D2FC-F-7N20M"
-			(at 477.52 175.26 0)
+			(at 302.26 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11425,7 +11425,7 @@
 			)
 		)
 		(property "Footprint" "mouse_library:SW_D2FC_OMR"
-			(at 457.2 179.07 0)
+			(at 281.94 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11437,7 +11437,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5157566.pdf"
-			(at 457.2 179.07 0)
+			(at 281.94 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11449,7 +11449,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 455.93 184.15 0)
+			(at 280.67 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11460,7 +11460,7 @@
 			)
 		)
 		(property "MPN" "D2FC-F-7N(20M)"
-			(at 455.93 184.15 0)
+			(at 280.67 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11471,7 +11471,7 @@
 			)
 		)
 		(property "LCSC_PART_NUMBER" "C5157566"
-			(at 455.93 184.15 0)
+			(at 280.67 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
