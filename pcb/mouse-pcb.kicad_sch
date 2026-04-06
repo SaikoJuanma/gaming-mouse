@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "3341f31b-1410-468e-af85-c0c55403a085")
-	(paper "A3")
+	(paper "A2")
 	(lib_symbols
 		(symbol "Device:C"
 			(pin_numbers
@@ -929,6 +929,469 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Power_Protection:USBLC6-2SC6"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0.635 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "USBLC6-2SC6"
+				(at 0.635 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+				(at 1.27 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+				(at 1.27 -8.255 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "usb ethernet video"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "USBLC6-2SC6_0_0"
+				(circle
+					(center -1.524 0)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.508 2.032)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.508 -4.572)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.508 2.032)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.508 -4.572)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.524 -2.54)
+					(radius 0.0001)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USBLC6-2SC6_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.508) (xy -1.016 0.508) (xy -1.524 1.524) (xy -2.032 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -3.048) (xy -1.016 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy -2.032 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -4.064) (xy -2.032 -4.064) (xy -1.524 -3.048) (xy -1.016 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.143) (xy -0.508 -0.762) (xy 0.508 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy -0.508 2.032) (xy 0.508 2.032) (xy 0 1.524) (xy 0 -4.064) (xy -0.508 -4.572) (xy 0.508 -4.572)
+						(xy 0 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -1.778) (xy -0.508 -1.778) (xy 0 -0.762) (xy 0.508 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 -3.048) (xy 2.032 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.508) (xy 1.016 0.508) (xy 1.524 1.524) (xy 2.032 0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -4.064) (xy 1.016 -4.064) (xy 1.524 -3.048) (xy 2.032 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USBLC6-2SC6_1_1"
+				(rectangle
+					(start -2.54 2.794)
+					(end 2.54 -5.334)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.032) (xy -1.524 2.032) (xy -1.524 -4.572) (xy -0.508 -4.572)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -4.572) (xy 1.524 -4.572) (xy 1.524 2.032) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "I/O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "I/O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "I/O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4826,6 +5289,18 @@
 		)
 		(uuid "d7519064-64b9-43cc-892a-9733f4202c3e")
 	)
+	(rectangle
+		(start 232.41 162.56)
+		(end 321.31 226.06)
+		(stroke
+			(width 0.254)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f95f36a3-e2b0-40e3-abd2-80d9a37c1b31")
+	)
 	(text " LDO 1.9V - Microchip MCP1812A (set to 1.8V or 2.0V)"
 		(exclude_from_sim no)
 		(at 220.218 257.81 0)
@@ -4845,6 +5320,16 @@
 			)
 		)
 		(uuid "550d6157-c564-45bb-a598-55d0cfe1151f")
+	)
+	(text "Clicks"
+		(exclude_from_sim no)
+		(at 272.288 167.386 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "58585668-85e4-4a4e-bffa-c0419d39e69b")
 	)
 	(text "USBLC6-2SC6"
 		(exclude_from_sim no)
@@ -5077,14 +5562,6 @@
 		(uuid "2b6b0351-cbb7-4ac5-9992-c16babce5f6e")
 	)
 	(no_connect
-		(at 148.59 201.93)
-		(uuid "2f97fe7c-dae4-491c-aa69-c4b6ab746716")
-	)
-	(no_connect
-		(at 148.59 207.01)
-		(uuid "43b7df40-f35b-4ad2-9aa0-8de054bc8848")
-	)
-	(no_connect
 		(at 189.23 184.15)
 		(uuid "50a47ceb-8ecf-4217-a577-f4207741d073")
 	)
@@ -5111,6 +5588,10 @@
 	(no_connect
 		(at 189.23 207.01)
 		(uuid "672c87b6-c7bf-4478-93d3-c9cf23fc40e4")
+	)
+	(no_connect
+		(at 391.16 71.12)
+		(uuid "717da1eb-9009-44d0-87b0-828039c55346")
 	)
 	(no_connect
 		(at 148.59 151.13)
@@ -5147,6 +5628,10 @@
 	(no_connect
 		(at 148.59 176.53)
 		(uuid "93dba5f1-d5d5-422b-b5e5-489ce8aa0959")
+	)
+	(no_connect
+		(at 426.72 63.5)
+		(uuid "9d7b508b-106c-4934-ac92-1ce39ef0c6e3")
 	)
 	(no_connect
 		(at 148.59 199.39)
@@ -5195,10 +5680,6 @@
 	(no_connect
 		(at 256.54 95.25)
 		(uuid "eb3c5458-9f0e-4148-ad78-66c77001af9f")
-	)
-	(no_connect
-		(at 189.23 158.75)
-		(uuid "ed1c3453-f60a-45a1-b757-22c13987f2ed")
 	)
 	(no_connect
 		(at 148.59 196.85)
@@ -5320,6 +5801,26 @@
 	)
 	(wire
 		(pts
+			(xy 430.53 78.74) (xy 430.53 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1021508f-a764-44a7-8586-0ba75accc30f")
+	)
+	(wire
+		(pts
+			(xy 289.56 217.17) (xy 295.91 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10435353-2db9-4161-8f6a-b13e08347e0b")
+	)
+	(wire
+		(pts
 			(xy 208.28 88.9) (xy 208.28 95.25)
 		)
 		(stroke
@@ -5367,6 +5868,16 @@
 			(type default)
 		)
 		(uuid "1877f750-9aaa-4d32-9886-631a898b16b6")
+	)
+	(wire
+		(pts
+			(xy 246.38 217.17) (xy 246.38 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19d0aed0-51e9-49a5-be92-c6c7ca4dc577")
 	)
 	(wire
 		(pts
@@ -5620,6 +6131,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 182.88) (xy 246.38 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "370cb0aa-4f14-44cb-8fc4-28c2dc17441e")
+	)
+	(wire
+		(pts
 			(xy 336.55 40.64) (xy 336.55 38.1)
 		)
 		(stroke
@@ -5750,6 +6271,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 207.01) (xy 148.59 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4df09ca1-3166-4027-9f75-14b6ad5d0fa7")
+	)
+	(wire
+		(pts
 			(xy 295.91 80.01) (xy 295.91 74.93)
 		)
 		(stroke
@@ -5757,6 +6288,16 @@
 			(type default)
 		)
 		(uuid "4ee1feae-921b-43d6-b3f7-5b48154a4e4a")
+	)
+	(wire
+		(pts
+			(xy 430.53 58.42) (xy 430.53 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5350759d-afac-4d92-9138-da62c3ba91e4")
 	)
 	(wire
 		(pts
@@ -5840,6 +6381,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 200.66) (xy 295.91 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "611cac49-e618-4af3-96e0-8a171dd90a32")
+	)
+	(wire
+		(pts
 			(xy 189.23 168.91) (xy 193.04 168.91)
 		)
 		(stroke
@@ -5877,6 +6428,16 @@
 			(type default)
 		)
 		(uuid "67efea42-d729-43fb-9bb3-90a6e7be08c0")
+	)
+	(wire
+		(pts
+			(xy 290.83 182.88) (xy 295.91 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68a4fa1e-3066-46a0-97d6-2b3cda186b50")
 	)
 	(wire
 		(pts
@@ -5940,6 +6501,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 200.66) (xy 246.38 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eac675e-3a4c-4bdc-a75f-8d05ae03f40f")
+	)
+	(wire
+		(pts
 			(xy 257.81 115.57) (xy 266.7 115.57)
 		)
 		(stroke
@@ -5977,6 +6548,16 @@
 			(type default)
 		)
 		(uuid "79175f3b-0dbf-46c7-86be-d6bfa44e2e79")
+	)
+	(wire
+		(pts
+			(xy 426.72 58.42) (xy 430.53 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a16a602-52a4-44fb-a040-e4bf5b4182bf")
 	)
 	(wire
 		(pts
@@ -6140,6 +6721,16 @@
 	)
 	(wire
 		(pts
+			(xy 426.72 78.74) (xy 430.53 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93da2494-a789-4510-8979-1acb27ac4256")
+	)
+	(wire
+		(pts
 			(xy 297.18 115.57) (xy 281.94 115.57)
 		)
 		(stroke
@@ -6157,6 +6748,16 @@
 			(type default)
 		)
 		(uuid "9aabe6de-dcb7-4792-b813-bf8bb7198f52")
+	)
+	(wire
+		(pts
+			(xy 143.51 201.93) (xy 148.59 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9babd676-8598-48f8-afe3-9696bff8dea5")
 	)
 	(wire
 		(pts
@@ -6260,6 +6861,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 182.88) (xy 246.38 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a65d1d6e-e599-4085-8795-d19f48fa5f6c")
+	)
+	(wire
+		(pts
 			(xy 189.23 173.99) (xy 193.04 173.99)
 		)
 		(stroke
@@ -6360,6 +6971,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 158.75) (xy 194.31 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4cc4d40-e1d8-4345-98c4-f0cba4e727b5")
+	)
+	(wire
+		(pts
 			(xy 210.82 95.25) (xy 210.82 97.79)
 		)
 		(stroke
@@ -6387,6 +7008,16 @@
 			(type default)
 		)
 		(uuid "bb8d9367-80a9-40c5-9958-a1aca38d70c6")
+	)
+	(wire
+		(pts
+			(xy 246.38 200.66) (xy 246.38 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd485bde-e189-46e0-97dc-7f0b6bda83bb")
 	)
 	(wire
 		(pts
@@ -6517,6 +7148,16 @@
 			(type default)
 		)
 		(uuid "ce3a84c0-6e4b-48a7-81b9-50496b17d1f9")
+	)
+	(wire
+		(pts
+			(xy 248.92 217.17) (xy 246.38 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfdf6481-bf0c-422f-b076-7fa4110392b3")
 	)
 	(wire
 		(pts
@@ -6878,6 +7519,30 @@
 			)
 		)
 	)
+	(global_label "RCLICK"
+		(shape input)
+		(at 143.51 201.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "225f07f3-0079-4ddd-8cf1-7e6ee1a264e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.8119 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "RESET"
 		(shape input)
 		(at 143.51 191.77 180)
@@ -7067,6 +7732,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "LCLIKC"
+		(shape input)
+		(at 295.91 182.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4398b28b-a859-4929-9aff-6b1cfbe8b571")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 305.3662 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -7310,6 +7999,30 @@
 			)
 		)
 	)
+	(global_label "CCLICK"
+		(shape input)
+		(at 143.51 207.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8398d97a-b3fb-4633-b645-4f823fc6841f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.8119 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "ANT_nrf"
 		(shape input)
 		(at 48.26 173.99 180)
@@ -7403,6 +8116,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "LCLIKC"
+		(shape input)
+		(at 194.31 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9df3e547-29eb-409a-bc0f-e4b34f15b967")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.7662 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -7550,6 +8287,30 @@
 			)
 		)
 	)
+	(global_label "RCLICK"
+		(shape input)
+		(at 295.91 217.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d2e2e21f-7d50-49f1-9b07-9c1f81938b8e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 305.6081 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "MOTION"
 		(shape input)
 		(at 76.2 97.79 0)
@@ -7646,6 +8407,30 @@
 			)
 		)
 	)
+	(global_label "CCLICK"
+		(shape input)
+		(at 295.91 200.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fbe4c82c-1ad1-4091-acc6-bca87a4bd1b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 305.6081 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "DECUSB"
 		(shape input)
 		(at 250.19 80.01 180)
@@ -7691,447 +8476,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mouse_library:NRF52840-QIAA-R7")
-		(at 271.78 87.63 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00f98783-2f8d-48ef-b497-790dcf21f557")
-		(property "Reference" "U2"
-			(at 271.78 69.85 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NRF52840-QIAA-R7"
-			(at 271.78 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "mouse_library:NORDIC_NRF52840-QIAA-R7"
-			(at 271.78 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C190794.pdf"
-			(at 271.78 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "IC RF TxRx + MCU 802.15.4, Bluetooth Bluetooth v5.0, Thread, Zigbee® 2.4GHz 73-VFQFN Dual Rows, Exposed Pad"
-			(at 271.78 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Nordic Semiconductor"
-			(at 271.78 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.85mm"
-			(at 271.78 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "QFN-73 Nordic Semiconductor"
-			(at 271.78 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 271.78 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/NRF52840-QIAA-R7/Nordic+Power/view-part/?ref=eda"
-			(at 271.78 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 271.78 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "1.2"
-			(at 271.78 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NRF52840-QIAA-R7/Nordic+Power/view-part/?ref=snap"
-			(at 271.78 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "NRF52840-QIAA-R"
-			(at 271.78 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 271.78 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Nordic Semiconductor"
-			(at 271.78 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "LCSC_PART_NUMBER" "C190794"
-			(at 271.78 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "AC9"
-			(uuid "f3433dca-6729-41d7-a8e1-a45c430f75ac")
-		)
-		(pin "J24"
-			(uuid "aef6ba9a-d94a-497a-9bec-efa44d29a9d1")
-		)
-		(pin "AC5"
-			(uuid "ab09a246-4125-4d10-bf0c-49fce73a2945")
-		)
-		(pin "AD18"
-			(uuid "78e8ec56-7a5c-4468-ae1e-398890b53319")
-		)
-		(pin "C1"
-			(uuid "0da0a465-a695-451f-a815-0625c616a093")
-		)
-		(pin "AD12"
-			(uuid "6b2c530c-b8eb-495a-b707-ffebc9953b6f")
-		)
-		(pin "A18"
-			(uuid "f5ac51f2-17a1-4ab7-93a1-a2adba5a49f8")
-		)
-		(pin "N24"
-			(uuid "f3228ba0-0bed-4870-8314-2ca0e661ed22")
-		)
-		(pin "B13"
-			(uuid "021fbe0f-f54e-42f2-8881-25e9d0286c55")
-		)
-		(pin "H2"
-			(uuid "5eee75b3-2370-4f6c-8e0c-21b57e72509e")
-		)
-		(pin "B1"
-			(uuid "abc1e24d-1a81-4ab8-bf7a-3d1a2838e31b")
-		)
-		(pin "B5"
-			(uuid "400f039a-bb9b-4dea-938f-c79bf2729280")
-		)
-		(pin "AC11"
-			(uuid "eeb8d0dc-1383-4453-bbad-4d11cafc85bf")
-		)
-		(pin "B9"
-			(uuid "7c7b717c-3041-45da-a272-fbee989bc551")
-		)
-		(pin "Y23"
-			(uuid "28cc613a-64db-4639-943e-912f8eb79a39")
-		)
-		(pin "G1"
-			(uuid "0f4c682a-1f39-494a-92a0-77014137c09a")
-		)
-		(pin "AD2"
-			(uuid "293f62cb-8a3a-4649-9737-5ea395a07685")
-		)
-		(pin "EXP"
-			(uuid "f231bcbe-ce22-4fa5-a4a1-58d0052c137b")
-		)
-		(pin "K2"
-			(uuid "1a66521f-2bb2-473b-a5a7-79c1c07d0582")
-		)
-		(pin "D23"
-			(uuid "f9bc067c-3251-404d-b7e9-8f0e93165fc8")
-		)
-		(pin "E24"
-			(uuid "dba5e612-224d-4ba9-bad9-c56d99eeac57")
-		)
-		(pin "W24"
-			(uuid "28688604-d1e7-4e47-9b37-5a70d97a799e")
-		)
-		(pin "A22"
-			(uuid "dd69cc66-bb5d-4373-afe8-f09832bda1c0")
-		)
-		(pin "A20"
-			(uuid "b43435c4-cf94-4146-8a9b-2e39e0d484b2")
-		)
-		(pin "B7"
-			(uuid "315044b8-6d56-41e8-92ab-04a5f458b903")
-		)
-		(pin "A12"
-			(uuid "15f0d141-796e-4d6f-a78e-818e25fbb9ab")
-		)
-		(pin "M2"
-			(uuid "504d0a97-7923-41a6-8134-056ebbc1dd0e")
-		)
-		(pin "A16"
-			(uuid "0cece554-26e0-4fb0-84e0-740a12a72853")
-		)
-		(pin "AA24"
-			(uuid "65fb8d02-1e9b-4eec-ba31-e5ba166310ec")
-		)
-		(pin "AD23"
-			(uuid "9b710a61-219b-40d0-bf27-6ffebace25f0")
-		)
-		(pin "A8"
-			(uuid "4dc2b4f6-4bfe-4055-b9e9-ff50d02c1f72")
-		)
-		(pin "A10"
-			(uuid "12d42b32-debc-4f92-bfbb-2edd00bc0d10")
-		)
-		(pin "AD16"
-			(uuid "8fc5d8ad-e094-41aa-8367-80979396bfba")
-		)
-		(pin "Y2"
-			(uuid "079d9f72-c8d6-4eef-b48c-e180ffaf1643")
-		)
-		(pin "L24"
-			(uuid "00e9df53-59fd-41f9-9f5e-959a892d2d59")
-		)
-		(pin "A23"
-			(uuid "44dedcd6-3014-43e0-a8e6-df32e8b8d218")
-		)
-		(pin "AB2"
-			(uuid "7b0e75ea-1aa6-4c82-8d7d-3854a0680324")
-		)
-		(pin "L1"
-			(uuid "026fdb5f-c17d-4b32-83a4-113c7c1e0e7a")
-		)
-		(pin "H23"
-			(uuid "7b013a00-508e-49eb-bf37-c3c2a7048244")
-		)
-		(pin "A14"
-			(uuid "6f50ab37-fb52-4948-b579-394f953b4991")
-		)
-		(pin "AC24"
-			(uuid "cd1e7d17-14b6-4637-b20b-8d7bad5f1a6f")
-		)
-		(pin "B24"
-			(uuid "8136ba4b-8f89-4253-9946-b30dda9570a9")
-		)
-		(pin "AD14"
-			(uuid "71dff4df-8e21-41ea-83de-8fba4a5000b6")
-		)
-		(pin "B15"
-			(uuid "f6fc439d-6146-4ca3-8534-cf35a301efa8")
-		)
-		(pin "B3"
-			(uuid "f8d827fa-1b73-4ebc-8e78-6d9fc6c9509c")
-		)
-		(pin "AD10"
-			(uuid "ef435fc7-794c-4a15-83a0-803baa13de24")
-		)
-		(pin "N1"
-			(uuid "7c09e65b-033f-43c2-9a78-9a1c4b2ccf46")
-		)
-		(pin "P2"
-			(uuid "9073d0bd-5224-4c60-8b4d-7838a4d4c7ee")
-		)
-		(pin "F2"
-			(uuid "e7916896-28c8-4236-ab8c-49c8707bda53")
-		)
-		(pin "P23"
-			(uuid "1323bb0b-69ed-4fd1-8a42-93ff75ecc6f5")
-		)
-		(pin "F23"
-			(uuid "88c0267e-18ec-4a9b-a6b6-27a930374b4d")
-		)
-		(pin "R1"
-			(uuid "85dc8520-1df8-4ed3-9929-c373f593241a")
-		)
-		(pin "R24"
-			(uuid "3da936b9-ec96-428f-af69-5a5ed993b693")
-		)
-		(pin "D2"
-			(uuid "5b49a432-bfa6-4091-a35e-71c94e6637b6")
-		)
-		(pin "T2"
-			(uuid "50b0515b-0424-4136-bde5-ab05d630df92")
-		)
-		(pin "B19"
-			(uuid "1a7f4061-09ff-49e0-9049-1f9ae40bdc52")
-		)
-		(pin "B17"
-			(uuid "d9d2714c-21a9-41d3-a9f7-fd5edafb2f73")
-		)
-		(pin "W1"
-			(uuid "cfb7f162-d273-4944-a40c-e0d6ce8372ee")
-		)
-		(pin "AD20"
-			(uuid "7df875b3-2bc1-4b22-9beb-22ec7e96faf4")
-		)
-		(pin "U24"
-			(uuid "2f981a9c-4dce-475f-a45f-720e077c88ce")
-		)
-		(pin "AD22"
-			(uuid "f7614771-eaf5-40a4-9d62-9a400da91cd9")
-		)
-		(pin "AC17"
-			(uuid "eab60726-9824-484c-8b59-4042c5e33521")
-		)
-		(pin "AC19"
-			(uuid "1b72a77a-751c-4556-9457-ffaf36f7ab5a")
-		)
-		(pin "AC13"
-			(uuid "f90b743b-886c-4e46-944b-e9a678ded95a")
-		)
-		(pin "U1"
-			(uuid "57c10b55-d2da-472f-921a-c2db8acdec0d")
-		)
-		(pin "AC21"
-			(uuid "71039695-49dc-46a9-b212-95dfb6e9cbc0")
-		)
-		(pin "B11"
-			(uuid "fc2a772e-1603-4e62-afa7-6d2d632bc9d9")
-		)
-		(pin "AD8"
-			(uuid "de9a925d-af30-4ae2-98f8-0b95891e9092")
-		)
-		(pin "AD6"
-			(uuid "09c48f95-1d2d-4003-b9b1-886a74a98c65")
-		)
-		(pin "AC15"
-			(uuid "bdfc4c6a-04cc-435a-9e0f-cac7adbb02d9")
-		)
-		(pin "AD4"
-			(uuid "743dba6d-12cb-4540-81ae-a32ea61365b5")
-		)
-		(pin "T23"
-			(uuid "f89d251c-e753-4a02-82aa-11e394221198")
-		)
-		(pin "V23"
-			(uuid "3c061866-ca5b-462b-b4fd-f4ef0b2e0670")
-		)
-		(pin "J1"
-			(uuid "58a63927-b830-42ff-a8e0-d17c6f8b6390")
-		)
-		(instances
-			(project "mouse-pcb"
-				(path "/3341f31b-1410-468e-af85-c0c55403a085"
-					(reference "U2")
-					(unit 2)
-				)
 			)
 		)
 	)
@@ -9252,7 +9596,7 @@
 	)
 	(symbol
 		(lib_id "mouse_library:TYPE-C-31-M-12")
-		(at 482.6 236.22 0)
+		(at 408.94 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9263,7 +9607,7 @@
 		(fields_autoplaced yes)
 		(uuid "2298166c-d0cf-4ee0-825c-d205d677e138")
 		(property "Reference" "J1"
-			(at 482.6 218.44 0)
+			(at 408.94 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9273,7 +9617,7 @@
 			)
 		)
 		(property "Value" "TYPE-C-31-M-12"
-			(at 482.6 220.98 0)
+			(at 408.94 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9283,7 +9627,7 @@
 			)
 		)
 		(property "Footprint" "mouse_library:HRO_TYPE-C-31-M-12"
-			(at 482.6 236.22 0)
+			(at 408.94 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9295,7 +9639,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C165948.pdf"
-			(at 482.6 236.22 0)
+			(at 408.94 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9306,7 +9650,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 482.6 236.22 0)
+			(at 408.94 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9317,7 +9661,7 @@
 			)
 		)
 		(property "MF" "HRO Electronics Co., Ltd."
-			(at 482.6 236.22 0)
+			(at 408.94 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9329,7 +9673,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "3.26 mm"
-			(at 482.6 236.22 0)
+			(at 408.94 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9341,7 +9685,7 @@
 			)
 		)
 		(property "Package" "Package"
-			(at 482.6 236.22 0)
+			(at 408.94 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9353,7 +9697,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 482.6 236.22 0)
+			(at 408.94 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9365,7 +9709,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/TYPE-C-31-M-12/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=eda"
-			(at 482.6 236.22 0)
+			(at 408.94 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9377,7 +9721,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 482.6 236.22 0)
+			(at 408.94 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9389,7 +9733,7 @@
 			)
 		)
 		(property "PARTREV" "2020.12.08"
-			(at 482.6 236.22 0)
+			(at 408.94 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9401,7 +9745,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TYPE-C-31-M-12/HRO+Electronics+Co.%252C+Ltd./view-part/?ref=snap"
-			(at 482.6 236.22 0)
+			(at 408.94 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9413,7 +9757,7 @@
 			)
 		)
 		(property "MPN" "TYPE-C-31-M-12"
-			(at 482.6 236.22 0)
+			(at 408.94 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9425,7 +9769,7 @@
 			)
 		)
 		(property "Description_1" "USB Connectors 24 Receptacle 1 8.94*7.3mm RoHS"
-			(at 482.6 236.22 0)
+			(at 408.94 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9437,7 +9781,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "TYPE-C-31-M-12"
-			(at 482.6 236.22 0)
+			(at 408.94 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9449,7 +9793,7 @@
 			)
 		)
 		(property "Availability" "Not in stock"
-			(at 482.6 236.22 0)
+			(at 408.94 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9461,7 +9805,7 @@
 			)
 		)
 		(property "MANUFACTURER" "HRO Electronics Co., Ltd."
-			(at 482.6 236.22 0)
+			(at 408.94 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9473,7 +9817,7 @@
 			)
 		)
 		(property "LCSC_PART_NUMBER" "C165948"
-			(at 482.6 236.22 0)
+			(at 408.94 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9535,6 +9879,84 @@
 			(project "mouse-pcb"
 				(path "/3341f31b-1410-468e-af85-c0c55403a085"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 246.38 198.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2f37362b-e404-483c-a373-164c032b285a")
+		(property "Reference" "#PWR052"
+			(at 246.38 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 246.3801 194.31 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 246.38 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72e53231-eead-4d24-a9b7-2bf9ff024972")
+		)
+		(instances
+			(project "mouse-pcb"
+				(path "/3341f31b-1410-468e-af85-c0c55403a085"
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -10249,447 +10671,6 @@
 		)
 	)
 	(symbol
-		(lib_id "mouse_library:NRF52840-QIAA-R7")
-		(at 177.8 88.9 0)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48413b03-8f32-45b8-a9fd-2e4d363d3307")
-		(property "Reference" "U2"
-			(at 177.8 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NRF52840-QIAA-R7"
-			(at 177.8 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "mouse_library:NORDIC_NRF52840-QIAA-R7"
-			(at 177.8 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C190794.pdf"
-			(at 177.8 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "IC RF TxRx + MCU 802.15.4, Bluetooth Bluetooth v5.0, Thread, Zigbee® 2.4GHz 73-VFQFN Dual Rows, Exposed Pad"
-			(at 177.8 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MF" "Nordic Semiconductor"
-			(at 177.8 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.85mm"
-			(at 177.8 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "QFN-73 Nordic Semiconductor"
-			(at 177.8 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 177.8 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/NRF52840-QIAA-R7/Nordic+Power/view-part/?ref=eda"
-			(at 177.8 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 177.8 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "1.2"
-			(at 177.8 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NRF52840-QIAA-R7/Nordic+Power/view-part/?ref=snap"
-			(at 177.8 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "NRF52840-QIAA-R"
-			(at 177.8 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 177.8 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Nordic Semiconductor"
-			(at 177.8 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "LCSC_PART_NUMBER" "C190794"
-			(at 177.8 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "AC9"
-			(uuid "f3433dca-6729-41d7-a8e1-a45c430f75ad")
-		)
-		(pin "J24"
-			(uuid "aef6ba9a-d94a-497a-9bec-efa44d29a9d2")
-		)
-		(pin "AC5"
-			(uuid "ab09a246-4125-4d10-bf0c-49fce73a2946")
-		)
-		(pin "AD18"
-			(uuid "78e8ec56-7a5c-4468-ae1e-398890b5331a")
-		)
-		(pin "C1"
-			(uuid "0da0a465-a695-451f-a815-0625c616a094")
-		)
-		(pin "AD12"
-			(uuid "6b2c530c-b8eb-495a-b707-ffebc9953b70")
-		)
-		(pin "A18"
-			(uuid "f5ac51f2-17a1-4ab7-93a1-a2adba5a49f9")
-		)
-		(pin "N24"
-			(uuid "f3228ba0-0bed-4870-8314-2ca0e661ed23")
-		)
-		(pin "B13"
-			(uuid "021fbe0f-f54e-42f2-8881-25e9d0286c56")
-		)
-		(pin "H2"
-			(uuid "5eee75b3-2370-4f6c-8e0c-21b57e72509f")
-		)
-		(pin "B1"
-			(uuid "abc1e24d-1a81-4ab8-bf7a-3d1a2838e31c")
-		)
-		(pin "B5"
-			(uuid "400f039a-bb9b-4dea-938f-c79bf2729281")
-		)
-		(pin "AC11"
-			(uuid "eeb8d0dc-1383-4453-bbad-4d11cafc85c0")
-		)
-		(pin "B9"
-			(uuid "7c7b717c-3041-45da-a272-fbee989bc552")
-		)
-		(pin "Y23"
-			(uuid "28cc613a-64db-4639-943e-912f8eb79a3a")
-		)
-		(pin "G1"
-			(uuid "0f4c682a-1f39-494a-92a0-77014137c09b")
-		)
-		(pin "AD2"
-			(uuid "293f62cb-8a3a-4649-9737-5ea395a07686")
-		)
-		(pin "EXP"
-			(uuid "f231bcbe-ce22-4fa5-a4a1-58d0052c137c")
-		)
-		(pin "K2"
-			(uuid "1a66521f-2bb2-473b-a5a7-79c1c07d0583")
-		)
-		(pin "D23"
-			(uuid "f9bc067c-3251-404d-b7e9-8f0e93165fc9")
-		)
-		(pin "E24"
-			(uuid "dba5e612-224d-4ba9-bad9-c56d99eeac58")
-		)
-		(pin "W24"
-			(uuid "28688604-d1e7-4e47-9b37-5a70d97a799f")
-		)
-		(pin "A22"
-			(uuid "dd69cc66-bb5d-4373-afe8-f09832bda1c1")
-		)
-		(pin "A20"
-			(uuid "b43435c4-cf94-4146-8a9b-2e39e0d484b3")
-		)
-		(pin "B7"
-			(uuid "315044b8-6d56-41e8-92ab-04a5f458b904")
-		)
-		(pin "A12"
-			(uuid "15f0d141-796e-4d6f-a78e-818e25fbb9ac")
-		)
-		(pin "M2"
-			(uuid "504d0a97-7923-41a6-8134-056ebbc1dd0f")
-		)
-		(pin "A16"
-			(uuid "0cece554-26e0-4fb0-84e0-740a12a72854")
-		)
-		(pin "AA24"
-			(uuid "65fb8d02-1e9b-4eec-ba31-e5ba166310ed")
-		)
-		(pin "AD23"
-			(uuid "9b710a61-219b-40d0-bf27-6ffebace25f1")
-		)
-		(pin "A8"
-			(uuid "4dc2b4f6-4bfe-4055-b9e9-ff50d02c1f73")
-		)
-		(pin "A10"
-			(uuid "12d42b32-debc-4f92-bfbb-2edd00bc0d11")
-		)
-		(pin "AD16"
-			(uuid "8fc5d8ad-e094-41aa-8367-80979396bfbb")
-		)
-		(pin "Y2"
-			(uuid "079d9f72-c8d6-4eef-b48c-e180ffaf1644")
-		)
-		(pin "L24"
-			(uuid "00e9df53-59fd-41f9-9f5e-959a892d2d5a")
-		)
-		(pin "A23"
-			(uuid "44dedcd6-3014-43e0-a8e6-df32e8b8d219")
-		)
-		(pin "AB2"
-			(uuid "7b0e75ea-1aa6-4c82-8d7d-3854a0680325")
-		)
-		(pin "L1"
-			(uuid "026fdb5f-c17d-4b32-83a4-113c7c1e0e7b")
-		)
-		(pin "H23"
-			(uuid "7b013a00-508e-49eb-bf37-c3c2a7048245")
-		)
-		(pin "A14"
-			(uuid "6f50ab37-fb52-4948-b579-394f953b4992")
-		)
-		(pin "AC24"
-			(uuid "cd1e7d17-14b6-4637-b20b-8d7bad5f1a70")
-		)
-		(pin "B24"
-			(uuid "8136ba4b-8f89-4253-9946-b30dda9570aa")
-		)
-		(pin "AD14"
-			(uuid "71dff4df-8e21-41ea-83de-8fba4a5000b7")
-		)
-		(pin "B15"
-			(uuid "f6fc439d-6146-4ca3-8534-cf35a301efa9")
-		)
-		(pin "B3"
-			(uuid "f8d827fa-1b73-4ebc-8e78-6d9fc6c9509d")
-		)
-		(pin "AD10"
-			(uuid "ef435fc7-794c-4a15-83a0-803baa13de25")
-		)
-		(pin "N1"
-			(uuid "7c09e65b-033f-43c2-9a78-9a1c4b2ccf47")
-		)
-		(pin "P2"
-			(uuid "9073d0bd-5224-4c60-8b4d-7838a4d4c7ef")
-		)
-		(pin "F2"
-			(uuid "e7916896-28c8-4236-ab8c-49c8707bda54")
-		)
-		(pin "P23"
-			(uuid "1323bb0b-69ed-4fd1-8a42-93ff75ecc6f6")
-		)
-		(pin "F23"
-			(uuid "88c0267e-18ec-4a9b-a6b6-27a930374b4e")
-		)
-		(pin "R1"
-			(uuid "85dc8520-1df8-4ed3-9929-c373f593241b")
-		)
-		(pin "R24"
-			(uuid "3da936b9-ec96-428f-af69-5a5ed993b694")
-		)
-		(pin "D2"
-			(uuid "5b49a432-bfa6-4091-a35e-71c94e6637b7")
-		)
-		(pin "T2"
-			(uuid "50b0515b-0424-4136-bde5-ab05d630df93")
-		)
-		(pin "B19"
-			(uuid "1a7f4061-09ff-49e0-9049-1f9ae40bdc53")
-		)
-		(pin "B17"
-			(uuid "d9d2714c-21a9-41d3-a9f7-fd5edafb2f74")
-		)
-		(pin "W1"
-			(uuid "cfb7f162-d273-4944-a40c-e0d6ce8372ef")
-		)
-		(pin "AD20"
-			(uuid "7df875b3-2bc1-4b22-9beb-22ec7e96faf5")
-		)
-		(pin "U24"
-			(uuid "2f981a9c-4dce-475f-a45f-720e077c88cf")
-		)
-		(pin "AD22"
-			(uuid "f7614771-eaf5-40a4-9d62-9a400da91cda")
-		)
-		(pin "AC17"
-			(uuid "eab60726-9824-484c-8b59-4042c5e33522")
-		)
-		(pin "AC19"
-			(uuid "1b72a77a-751c-4556-9457-ffaf36f7ab5b")
-		)
-		(pin "AC13"
-			(uuid "f90b743b-886c-4e46-944b-e9a678ded95b")
-		)
-		(pin "U1"
-			(uuid "57c10b55-d2da-472f-921a-c2db8acdec0e")
-		)
-		(pin "AC21"
-			(uuid "71039695-49dc-46a9-b212-95dfb6e9cbc1")
-		)
-		(pin "B11"
-			(uuid "fc2a772e-1603-4e62-afa7-6d2d632bc9da")
-		)
-		(pin "AD8"
-			(uuid "de9a925d-af30-4ae2-98f8-0b95891e9093")
-		)
-		(pin "AD6"
-			(uuid "09c48f95-1d2d-4003-b9b1-886a74a98c66")
-		)
-		(pin "AC15"
-			(uuid "bdfc4c6a-04cc-435a-9e0f-cac7adbb02da")
-		)
-		(pin "AD4"
-			(uuid "743dba6d-12cb-4540-81ae-a32ea61365b6")
-		)
-		(pin "T23"
-			(uuid "f89d251c-e753-4a02-82aa-11e394221199")
-		)
-		(pin "V23"
-			(uuid "3c061866-ca5b-462b-b4fd-f4ef0b2e0671")
-		)
-		(pin "J1"
-			(uuid "58a63927-b830-42ff-a8e0-d17c6f8b6391")
-		)
-		(instances
-			(project "mouse-pcb"
-				(path "/3341f31b-1410-468e-af85-c0c55403a085"
-					(reference "U2")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 90.17 181.61 180)
 		(unit 1)
@@ -10787,6 +10768,85 @@
 			(project "mouse-pcb"
 				(path "/3341f31b-1410-468e-af85-c0c55403a085"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 430.53 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49bf5ba9-4525-4a00-8e44-ffe8af8da65d")
+		(property "Reference" "#PWR055"
+			(at 430.53 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 430.5301 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 430.53 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 430.53 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 430.53 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8337ce62-743a-4e28-b3b3-404b4e002bd8")
+		)
+		(instances
+			(project "mouse-pcb"
+				(path "/3341f31b-1410-468e-af85-c0c55403a085"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -11236,6 +11296,125 @@
 		)
 	)
 	(symbol
+		(lib_id "Power_Protection:USBLC6-2SC6")
+		(at 388.62 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53a68c51-e385-4fbb-8a08-d385e8c3922e")
+		(property "Reference" "U3"
+			(at 390.2711 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USBLC6-2SC6"
+			(at 390.2711 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+			(at 389.89 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
+			(at 389.89 46.355 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 388.62 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "USBLC6-2SC6"
+			(at 388.62 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCS_PART_NUMBER" "C7519"
+			(at 388.62 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "bb2b33e3-9860-481f-b7c4-df7ab02a6db5")
+		)
+		(pin "5"
+			(uuid "49a5e67c-6a86-4d3d-8664-75c2319aa758")
+		)
+		(pin "4"
+			(uuid "eabfb37a-c691-4496-b325-9565730b0d4e")
+		)
+		(pin "6"
+			(uuid "6bd4450f-4f71-4149-8ef7-b81e6ef1e3a4")
+		)
+		(pin "2"
+			(uuid "4a7ece4b-4280-4f01-a18d-80ce29a89ece")
+		)
+		(pin "1"
+			(uuid "f9616385-10a6-493d-ab9c-1969b7081a28")
+		)
+		(instances
+			(project "mouse-pcb"
+				(path "/3341f31b-1410-468e-af85-c0c55403a085"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 297.18 132.08 0)
 		(unit 1)
@@ -11394,7 +11573,7 @@
 	)
 	(symbol
 		(lib_id "mouse_library:D2FC-F-7N20M")
-		(at 280.67 190.5 0)
+		(at 248.92 187.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11405,7 +11584,7 @@
 		(fields_autoplaced yes)
 		(uuid "5dd9910d-0c26-412e-ab80-fce97cf68267")
 		(property "Reference" "SW1"
-			(at 302.26 179.07 0)
+			(at 270.51 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11414,8 +11593,8 @@
 				)
 			)
 		)
-		(property "Value" "D2FC-F-7N20M"
-			(at 302.26 181.61 0)
+		(property "Value" "left click"
+			(at 270.51 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11425,7 +11604,7 @@
 			)
 		)
 		(property "Footprint" "mouse_library:SW_D2FC_OMR"
-			(at 281.94 185.42 0)
+			(at 250.19 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11437,7 +11616,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5157566.pdf"
-			(at 281.94 185.42 0)
+			(at 250.19 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11449,7 +11628,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 280.67 190.5 0)
+			(at 248.92 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11460,7 +11639,7 @@
 			)
 		)
 		(property "MPN" "D2FC-F-7N(20M)"
-			(at 280.67 190.5 0)
+			(at 248.92 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11471,7 +11650,7 @@
 			)
 		)
 		(property "LCSC_PART_NUMBER" "C5157566"
-			(at 280.67 190.5 0)
+			(at 248.92 187.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12301,7 +12480,7 @@
 	)
 	(symbol
 		(lib_id "mouse_library:D2FC-F-7N20M")
-		(at 457.2 210.82 0)
+		(at 247.65 222.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12312,7 +12491,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d470330-c5dd-4b77-844e-82258bc30d68")
 		(property "Reference" "SW3"
-			(at 478.79 199.39 0)
+			(at 269.24 210.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12321,8 +12500,8 @@
 				)
 			)
 		)
-		(property "Value" "D2FC-F-7N20M"
-			(at 478.79 201.93 0)
+		(property "Value" "right click"
+			(at 269.24 213.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12332,7 +12511,7 @@
 			)
 		)
 		(property "Footprint" "mouse_library:SW_D2FC_OMR"
-			(at 458.47 205.74 0)
+			(at 248.92 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12344,7 +12523,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5157566.pdf"
-			(at 458.47 205.74 0)
+			(at 248.92 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12356,7 +12535,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 457.2 210.82 0)
+			(at 247.65 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12367,7 +12546,7 @@
 			)
 		)
 		(property "MPN" "D2FC-F-7N(20M)"
-			(at 457.2 210.82 0)
+			(at 247.65 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12378,7 +12557,7 @@
 			)
 		)
 		(property "LCSC_PART_NUMBER" "C5157566"
-			(at 457.2 210.82 0)
+			(at 247.65 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13446,7 +13625,7 @@
 	)
 	(symbol
 		(lib_id "mouse_library:D2FC-F-7N20M")
-		(at 455.93 196.85 0)
+		(at 247.65 205.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13457,7 +13636,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e3f1d03-f42d-4f71-88b6-6a47dd46a9b3")
 		(property "Reference" "SW2"
-			(at 477.52 185.42 0)
+			(at 269.24 194.31 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13466,8 +13645,8 @@
 				)
 			)
 		)
-		(property "Value" "D2FC-F-7N20M"
-			(at 477.52 187.96 0)
+		(property "Value" "center click"
+			(at 269.24 196.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13477,7 +13656,7 @@
 			)
 		)
 		(property "Footprint" "mouse_library:SW_D2FC_OMR"
-			(at 457.2 191.77 0)
+			(at 248.92 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13489,7 +13668,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C5157566.pdf"
-			(at 457.2 191.77 0)
+			(at 248.92 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13501,7 +13680,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 455.93 196.85 0)
+			(at 247.65 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13512,7 +13691,7 @@
 			)
 		)
 		(property "MPN" "D2FC-F-7N(20M)"
-			(at 455.93 196.85 0)
+			(at 247.65 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13523,7 +13702,7 @@
 			)
 		)
 		(property "LCSC_PART_NUMBER" "C5157566"
-			(at 455.93 196.85 0)
+			(at 247.65 205.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14142,6 +14321,447 @@
 		)
 	)
 	(symbol
+		(lib_id "mouse_library:NRF52840-QIAA-R7")
+		(at 271.78 87.63 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae47ef4c-198c-4682-a818-a010b7a8ee86")
+		(property "Reference" "U2"
+			(at 271.78 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NRF52840-QIAA-R7"
+			(at 271.78 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mouse_library:NORDIC_NRF52840-QIAA-R7"
+			(at 271.78 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C190794.pdf"
+			(at 271.78 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "IC RF TxRx + MCU 802.15.4, Bluetooth Bluetooth v5.0, Thread, Zigbee® 2.4GHz 73-VFQFN Dual Rows, Exposed Pad"
+			(at 271.78 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Nordic Semiconductor"
+			(at 271.78 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.85mm"
+			(at 271.78 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "QFN-73 Nordic Semiconductor"
+			(at 271.78 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 271.78 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/NRF52840-QIAA-R7/Nordic+Power/view-part/?ref=eda"
+			(at 271.78 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 271.78 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1.2"
+			(at 271.78 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NRF52840-QIAA-R7/Nordic+Power/view-part/?ref=snap"
+			(at 271.78 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "NRF52840-QIAA-R"
+			(at 271.78 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 271.78 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Nordic Semiconductor"
+			(at 271.78 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "LCSC_PART_NUMBER" "C190794"
+			(at 271.78 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "Y23"
+			(uuid "33456a9f-f02d-4f69-b7f8-7d19332757f3")
+		)
+		(pin "U1"
+			(uuid "0ca93bed-651b-4093-a853-c36f66f9e8fe")
+		)
+		(pin "AD8"
+			(uuid "a2b58207-0d3a-4ee6-9318-f270462cb685")
+		)
+		(pin "T23"
+			(uuid "14ee196c-3840-40be-9219-bd9161f4980c")
+		)
+		(pin "U24"
+			(uuid "2ba0d777-7ade-4d2e-af7b-0373efc56c84")
+		)
+		(pin "AD6"
+			(uuid "77a0bafa-faee-4db6-b782-0ce26d824e0f")
+		)
+		(pin "AB2"
+			(uuid "a736c3df-ac6d-4f73-9e5c-ed2391de4ee6")
+		)
+		(pin "AC5"
+			(uuid "2c6ed928-ee65-4166-80c4-9c28a8e9c246")
+		)
+		(pin "R1"
+			(uuid "84e5ba6d-1f84-4dc2-9c21-2d1675242974")
+		)
+		(pin "T2"
+			(uuid "b8d50db6-fdbd-4fd8-a2c0-84299e1a578c")
+		)
+		(pin "P2"
+			(uuid "7a57bfef-83e6-4eaf-aef3-5cef6ab72c61")
+		)
+		(pin "P23"
+			(uuid "1920366b-2264-4689-b3c0-ce65a4790c78")
+		)
+		(pin "R24"
+			(uuid "c2b98244-e851-4dba-ae09-db017f2a0440")
+		)
+		(pin "A22"
+			(uuid "88713ae2-ff75-4adc-9628-a5fd04de06f6")
+		)
+		(pin "AA24"
+			(uuid "df24cee7-02a2-4258-b279-af074dc45ab5")
+		)
+		(pin "N1"
+			(uuid "27358e7c-1faf-4ee4-b73f-d734370ec79e")
+		)
+		(pin "AD4"
+			(uuid "1774d793-1580-4982-a9fb-50a19f363717")
+		)
+		(pin "A23"
+			(uuid "0edcf9b2-122f-46b3-ad7d-60a5fd1695f1")
+		)
+		(pin "M2"
+			(uuid "b2eb7193-7d7e-4e72-913f-a5fc664915fe")
+		)
+		(pin "AC17"
+			(uuid "d630a94a-d6b3-448e-a7a0-048d7eb35bbd")
+		)
+		(pin "AC21"
+			(uuid "e9b35bcf-2feb-42f3-aab1-da7dbccc15fd")
+		)
+		(pin "AC15"
+			(uuid "a90f0de7-4c91-41ad-bba0-7e253cff0e0a")
+		)
+		(pin "AC19"
+			(uuid "3e321f52-5c93-477b-8c0b-5eb5cb468ac2")
+		)
+		(pin "AD10"
+			(uuid "296c5bbe-0607-4bff-bc86-7fe8653de513")
+		)
+		(pin "AC13"
+			(uuid "bb121645-8346-4dee-bcd7-13936e6456e2")
+		)
+		(pin "AC11"
+			(uuid "24700bc2-b476-4068-912a-efad38df9056")
+		)
+		(pin "AC9"
+			(uuid "cefef535-93f8-4db1-ac45-0a42465020b0")
+		)
+		(pin "A20"
+			(uuid "62d546ac-d4af-4071-b802-22a0d224fcb9")
+		)
+		(pin "A12"
+			(uuid "79c0c3bb-5648-4d2c-ac97-641511474256")
+		)
+		(pin "A16"
+			(uuid "4bb4350c-9882-4f88-8d0c-9517e99cc68a")
+		)
+		(pin "A10"
+			(uuid "5ff46960-d2bf-4030-8629-ecba5a196a38")
+		)
+		(pin "A14"
+			(uuid "55ac67f1-5aa9-4f80-a153-65e58ca45695")
+		)
+		(pin "A8"
+			(uuid "d89fed07-6d42-4660-a1f2-46fd299de803")
+		)
+		(pin "AC24"
+			(uuid "680251b5-bf29-4d82-8b27-54b847dd4a60")
+		)
+		(pin "B24"
+			(uuid "c8d89269-f02e-428d-b4ec-907cf85af2e8")
+		)
+		(pin "H23"
+			(uuid "9d3ea641-b0c2-426d-8cc3-b13d364fe7ba")
+		)
+		(pin "H2"
+			(uuid "0e271d8d-0029-4616-8f15-33d6669b7480")
+		)
+		(pin "AD2"
+			(uuid "6cc2bbfe-ada4-47bf-b1ab-7b281c1a04f2")
+		)
+		(pin "AD14"
+			(uuid "637d229b-24ff-4d52-8f6f-7ad0c2649623")
+		)
+		(pin "G1"
+			(uuid "f808e6db-d10f-47e8-8b53-d60d2516194d")
+		)
+		(pin "F2"
+			(uuid "91ecad34-1ce3-4f5c-9438-94783f3b11cd")
+		)
+		(pin "D2"
+			(uuid "d32bc581-7cd3-4fbd-8178-f955c650e181")
+		)
+		(pin "B19"
+			(uuid "422cee2d-1352-4fcf-b1da-8313f85cb56b")
+		)
+		(pin "AD23"
+			(uuid "98474cd3-c30e-430b-a6b2-235e74a58316")
+		)
+		(pin "B1"
+			(uuid "e70a17e0-6441-44a1-bfdd-c920b927c026")
+		)
+		(pin "B17"
+			(uuid "2f298546-feb4-4edf-a0fb-8bb181ee1e8f")
+		)
+		(pin "B3"
+			(uuid "4062a40f-0b02-45e1-ab76-e0cfb254def7")
+		)
+		(pin "B15"
+			(uuid "b16289f3-73d5-4a1d-bcf5-6fd250b62df7")
+		)
+		(pin "V23"
+			(uuid "dadfe2e2-749d-4a36-bc5a-276847089ab9")
+		)
+		(pin "B13"
+			(uuid "f48679e1-6750-4959-9b39-3d714104aaff")
+		)
+		(pin "B5"
+			(uuid "3a86baf2-ffbf-4e08-ad1a-03640cbed0ae")
+		)
+		(pin "B11"
+			(uuid "af9497af-827f-46cf-a20d-0f4535363861")
+		)
+		(pin "B7"
+			(uuid "fa4d48fe-f1ce-40ec-bc37-8595064dd140")
+		)
+		(pin "B9"
+			(uuid "ddc7cc8f-dade-4fd4-82aa-639951c81bf2")
+		)
+		(pin "AD22"
+			(uuid "d4aca008-bf53-457b-8105-f32555b66ae5")
+		)
+		(pin "C1"
+			(uuid "b5f675a7-7c3c-42a9-872c-a3215165e445")
+		)
+		(pin "AD20"
+			(uuid "11ef766a-375c-4aec-8ade-0aeaaa7d06a0")
+		)
+		(pin "AD12"
+			(uuid "84634584-2c81-4ce1-a133-b534e90fc0ed")
+		)
+		(pin "AD16"
+			(uuid "1bb64b48-bba3-45f4-8d72-d4c4ee3fdb2a")
+		)
+		(pin "AD18"
+			(uuid "56c10264-a55e-4c65-8a03-3548f0803b68")
+		)
+		(pin "D23"
+			(uuid "592aeb52-1379-4628-9831-9afc2c2e960d")
+		)
+		(pin "E24"
+			(uuid "1c38e5a1-ce7e-4c27-8d2b-11459b7f7767")
+		)
+		(pin "EXP"
+			(uuid "4cec822b-0f6e-4e0c-a52c-7d5ad15e6ae6")
+		)
+		(pin "J1"
+			(uuid "633284c2-54fd-4d28-8b00-8a8dac999061")
+		)
+		(pin "W24"
+			(uuid "13e76d52-17bf-4b7f-8a72-b543a8efa66b")
+		)
+		(pin "A18"
+			(uuid "936cdea5-16bc-4185-8d78-850ffa62821f")
+		)
+		(pin "L1"
+			(uuid "67ad27a5-fe0b-4a48-8434-2cbe89abdf61")
+		)
+		(pin "W1"
+			(uuid "11263259-967c-4d6b-b6d3-c8fdb41c875e")
+		)
+		(pin "Y2"
+			(uuid "4d8864aa-7625-4722-97b4-e3fbf1b6e02c")
+		)
+		(pin "K2"
+			(uuid "637a1380-4b1a-4d62-8e14-88b4556f2c55")
+		)
+		(pin "J24"
+			(uuid "ed0bc741-ec0c-45a2-942c-401f81958b78")
+		)
+		(pin "L24"
+			(uuid "25a5958b-68b0-4ddf-bc7e-e46852443b2e")
+		)
+		(pin "F23"
+			(uuid "d0f38b77-0178-48e2-9f3a-a8aaac3723c2")
+		)
+		(pin "N24"
+			(uuid "c7992f73-0621-4664-8909-ad83ce53cfb0")
+		)
+		(instances
+			(project "mouse-pcb"
+				(path "/3341f31b-1410-468e-af85-c0c55403a085"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 294.64 55.88 0)
 		(unit 1)
@@ -14221,8 +14841,8 @@
 		)
 	)
 	(symbol
-		(lib_id "mouse_library:NRF52840-QIAA-R7")
-		(at 168.91 179.07 0)
+		(lib_id "power:+3V3")
+		(at 246.38 214.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14230,42 +14850,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9b3be62-f9d1-4a10-94cb-03ebf6828958")
-		(property "Reference" "U2"
-			(at 168.91 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NRF52840-QIAA-R7"
-			(at 168.91 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "mouse_library:NORDIC_NRF52840-QIAA-R7"
-			(at 168.91 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C190794.pdf"
-			(at 168.91 179.07 0)
+		(uuid "b9e68a3e-1fda-4038-88c5-4830886cc501")
+		(property "Reference" "#PWR053"
+			(at 246.38 218.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14275,152 +14862,19 @@
 				)
 			)
 		)
-		(property "Description" "IC RF TxRx + MCU 802.15.4, Bluetooth Bluetooth v5.0, Thread, Zigbee® 2.4GHz 73-VFQFN Dual Rows, Exposed Pad"
-			(at 168.91 179.07 0)
-			(hide yes)
+		(property "Value" "+3V3"
+			(at 246.3801 210.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
+				(justify left)
 			)
 		)
-		(property "MF" "Nordic Semiconductor"
-			(at 168.91 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.85mm"
-			(at 168.91 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Package" "QFN-73 Nordic Semiconductor"
-			(at 168.91 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Price" "None"
-			(at 168.91 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/NRF52840-QIAA-R7/Nordic+Power/view-part/?ref=eda"
-			(at 168.91 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 168.91 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "PARTREV" "1.2"
-			(at 168.91 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NRF52840-QIAA-R7/Nordic+Power/view-part/?ref=snap"
-			(at 168.91 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MPN" "NRF52840-QIAA-R"
-			(at 168.91 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 168.91 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "MANUFACTURER" "Nordic Semiconductor"
-			(at 168.91 179.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-			)
-		)
-		(property "LCSC_PART_NUMBER" "C190794"
-			(at 168.91 179.07 0)
+		(property "Footprint" ""
+			(at 246.38 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14430,232 +14884,35 @@
 				)
 			)
 		)
-		(pin "AC9"
-			(uuid "f3433dca-6729-41d7-a8e1-a45c430f75ae")
-		)
-		(pin "J24"
-			(uuid "aef6ba9a-d94a-497a-9bec-efa44d29a9d3")
-		)
-		(pin "AC5"
-			(uuid "ab09a246-4125-4d10-bf0c-49fce73a2947")
-		)
-		(pin "AD18"
-			(uuid "78e8ec56-7a5c-4468-ae1e-398890b5331b")
-		)
-		(pin "C1"
-			(uuid "0da0a465-a695-451f-a815-0625c616a095")
-		)
-		(pin "AD12"
-			(uuid "6b2c530c-b8eb-495a-b707-ffebc9953b71")
-		)
-		(pin "A18"
-			(uuid "f5ac51f2-17a1-4ab7-93a1-a2adba5a49fa")
-		)
-		(pin "N24"
-			(uuid "f3228ba0-0bed-4870-8314-2ca0e661ed24")
-		)
-		(pin "B13"
-			(uuid "021fbe0f-f54e-42f2-8881-25e9d0286c57")
-		)
-		(pin "H2"
-			(uuid "5eee75b3-2370-4f6c-8e0c-21b57e7250a0")
-		)
-		(pin "B1"
-			(uuid "abc1e24d-1a81-4ab8-bf7a-3d1a2838e31d")
-		)
-		(pin "B5"
-			(uuid "400f039a-bb9b-4dea-938f-c79bf2729282")
-		)
-		(pin "AC11"
-			(uuid "eeb8d0dc-1383-4453-bbad-4d11cafc85c1")
-		)
-		(pin "B9"
-			(uuid "7c7b717c-3041-45da-a272-fbee989bc553")
-		)
-		(pin "Y23"
-			(uuid "28cc613a-64db-4639-943e-912f8eb79a3b")
-		)
-		(pin "G1"
-			(uuid "0f4c682a-1f39-494a-92a0-77014137c09c")
-		)
-		(pin "AD2"
-			(uuid "293f62cb-8a3a-4649-9737-5ea395a07687")
-		)
-		(pin "EXP"
-			(uuid "f231bcbe-ce22-4fa5-a4a1-58d0052c137d")
-		)
-		(pin "K2"
-			(uuid "1a66521f-2bb2-473b-a5a7-79c1c07d0584")
-		)
-		(pin "D23"
-			(uuid "f9bc067c-3251-404d-b7e9-8f0e93165fca")
-		)
-		(pin "E24"
-			(uuid "dba5e612-224d-4ba9-bad9-c56d99eeac59")
-		)
-		(pin "W24"
-			(uuid "28688604-d1e7-4e47-9b37-5a70d97a79a0")
-		)
-		(pin "A22"
-			(uuid "dd69cc66-bb5d-4373-afe8-f09832bda1c2")
-		)
-		(pin "A20"
-			(uuid "b43435c4-cf94-4146-8a9b-2e39e0d484b4")
-		)
-		(pin "B7"
-			(uuid "315044b8-6d56-41e8-92ab-04a5f458b905")
-		)
-		(pin "A12"
-			(uuid "15f0d141-796e-4d6f-a78e-818e25fbb9ad")
-		)
-		(pin "M2"
-			(uuid "504d0a97-7923-41a6-8134-056ebbc1dd10")
-		)
-		(pin "A16"
-			(uuid "0cece554-26e0-4fb0-84e0-740a12a72855")
-		)
-		(pin "AA24"
-			(uuid "65fb8d02-1e9b-4eec-ba31-e5ba166310ee")
-		)
-		(pin "AD23"
-			(uuid "9b710a61-219b-40d0-bf27-6ffebace25f2")
-		)
-		(pin "A8"
-			(uuid "4dc2b4f6-4bfe-4055-b9e9-ff50d02c1f74")
-		)
-		(pin "A10"
-			(uuid "12d42b32-debc-4f92-bfbb-2edd00bc0d12")
-		)
-		(pin "AD16"
-			(uuid "8fc5d8ad-e094-41aa-8367-80979396bfbc")
-		)
-		(pin "Y2"
-			(uuid "079d9f72-c8d6-4eef-b48c-e180ffaf1645")
-		)
-		(pin "L24"
-			(uuid "00e9df53-59fd-41f9-9f5e-959a892d2d5b")
-		)
-		(pin "A23"
-			(uuid "44dedcd6-3014-43e0-a8e6-df32e8b8d21a")
-		)
-		(pin "AB2"
-			(uuid "7b0e75ea-1aa6-4c82-8d7d-3854a0680326")
-		)
-		(pin "L1"
-			(uuid "026fdb5f-c17d-4b32-83a4-113c7c1e0e7c")
-		)
-		(pin "H23"
-			(uuid "7b013a00-508e-49eb-bf37-c3c2a7048246")
-		)
-		(pin "A14"
-			(uuid "6f50ab37-fb52-4948-b579-394f953b4993")
-		)
-		(pin "AC24"
-			(uuid "cd1e7d17-14b6-4637-b20b-8d7bad5f1a71")
-		)
-		(pin "B24"
-			(uuid "8136ba4b-8f89-4253-9946-b30dda9570ab")
-		)
-		(pin "AD14"
-			(uuid "71dff4df-8e21-41ea-83de-8fba4a5000b8")
-		)
-		(pin "B15"
-			(uuid "f6fc439d-6146-4ca3-8534-cf35a301efaa")
-		)
-		(pin "B3"
-			(uuid "f8d827fa-1b73-4ebc-8e78-6d9fc6c9509e")
-		)
-		(pin "AD10"
-			(uuid "ef435fc7-794c-4a15-83a0-803baa13de26")
-		)
-		(pin "N1"
-			(uuid "7c09e65b-033f-43c2-9a78-9a1c4b2ccf48")
-		)
-		(pin "P2"
-			(uuid "9073d0bd-5224-4c60-8b4d-7838a4d4c7f0")
-		)
-		(pin "F2"
-			(uuid "e7916896-28c8-4236-ab8c-49c8707bda55")
-		)
-		(pin "P23"
-			(uuid "1323bb0b-69ed-4fd1-8a42-93ff75ecc6f7")
-		)
-		(pin "F23"
-			(uuid "88c0267e-18ec-4a9b-a6b6-27a930374b4f")
-		)
-		(pin "R1"
-			(uuid "85dc8520-1df8-4ed3-9929-c373f593241c")
-		)
-		(pin "R24"
-			(uuid "3da936b9-ec96-428f-af69-5a5ed993b695")
-		)
-		(pin "D2"
-			(uuid "5b49a432-bfa6-4091-a35e-71c94e6637b8")
-		)
-		(pin "T2"
-			(uuid "50b0515b-0424-4136-bde5-ab05d630df94")
-		)
-		(pin "B19"
-			(uuid "1a7f4061-09ff-49e0-9049-1f9ae40bdc54")
-		)
-		(pin "B17"
-			(uuid "d9d2714c-21a9-41d3-a9f7-fd5edafb2f75")
-		)
-		(pin "W1"
-			(uuid "cfb7f162-d273-4944-a40c-e0d6ce8372f0")
-		)
-		(pin "AD20"
-			(uuid "7df875b3-2bc1-4b22-9beb-22ec7e96faf6")
-		)
-		(pin "U24"
-			(uuid "2f981a9c-4dce-475f-a45f-720e077c88d0")
-		)
-		(pin "AD22"
-			(uuid "f7614771-eaf5-40a4-9d62-9a400da91cdb")
-		)
-		(pin "AC17"
-			(uuid "eab60726-9824-484c-8b59-4042c5e33523")
-		)
-		(pin "AC19"
-			(uuid "1b72a77a-751c-4556-9457-ffaf36f7ab5c")
-		)
-		(pin "AC13"
-			(uuid "f90b743b-886c-4e46-944b-e9a678ded95c")
-		)
-		(pin "U1"
-			(uuid "57c10b55-d2da-472f-921a-c2db8acdec0f")
-		)
-		(pin "AC21"
-			(uuid "71039695-49dc-46a9-b212-95dfb6e9cbc2")
-		)
-		(pin "B11"
-			(uuid "fc2a772e-1603-4e62-afa7-6d2d632bc9db")
-		)
-		(pin "AD8"
-			(uuid "de9a925d-af30-4ae2-98f8-0b95891e9094")
-		)
-		(pin "AD6"
-			(uuid "09c48f95-1d2d-4003-b9b1-886a74a98c67")
-		)
-		(pin "AC15"
-			(uuid "bdfc4c6a-04cc-435a-9e0f-cac7adbb02db")
-		)
-		(pin "AD4"
-			(uuid "743dba6d-12cb-4540-81ae-a32ea61365b7")
-		)
-		(pin "T23"
-			(uuid "f89d251c-e753-4a02-82aa-11e39422119a")
-		)
-		(pin "V23"
-			(uuid "3c061866-ca5b-462b-b4fd-f4ef0b2e0672")
-		)
-		(pin "J1"
-			(uuid "58a63927-b830-42ff-a8e0-d17c6f8b6392")
+		(property "Datasheet" ""
+			(at 246.38 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 246.38 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "57032d72-73ff-4bd7-b56e-9ae1499a2ecd")
 		)
 		(instances
 			(project "mouse-pcb"
 				(path "/3341f31b-1410-468e-af85-c0c55403a085"
-					(reference "U2")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -15223,6 +15480,525 @@
 			(project "mouse-pcb"
 				(path "/3341f31b-1410-468e-af85-c0c55403a085"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mouse_library:NRF52840-QIAA-R7")
+		(at 177.8 88.9 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbe746ef-a411-4a3b-8e7a-81211361795f")
+		(property "Reference" "U2"
+			(at 177.8 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NRF52840-QIAA-R7"
+			(at 177.8 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mouse_library:NORDIC_NRF52840-QIAA-R7"
+			(at 177.8 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C190794.pdf"
+			(at 177.8 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "IC RF TxRx + MCU 802.15.4, Bluetooth Bluetooth v5.0, Thread, Zigbee® 2.4GHz 73-VFQFN Dual Rows, Exposed Pad"
+			(at 177.8 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Nordic Semiconductor"
+			(at 177.8 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.85mm"
+			(at 177.8 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "QFN-73 Nordic Semiconductor"
+			(at 177.8 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 177.8 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/NRF52840-QIAA-R7/Nordic+Power/view-part/?ref=eda"
+			(at 177.8 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 177.8 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1.2"
+			(at 177.8 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NRF52840-QIAA-R7/Nordic+Power/view-part/?ref=snap"
+			(at 177.8 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "NRF52840-QIAA-R"
+			(at 177.8 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 177.8 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Nordic Semiconductor"
+			(at 177.8 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "LCSC_PART_NUMBER" "C190794"
+			(at 177.8 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "Y23"
+			(uuid "33456a9f-f02d-4f69-b7f8-7d19332757f3")
+		)
+		(pin "U1"
+			(uuid "0ca93bed-651b-4093-a853-c36f66f9e8fe")
+		)
+		(pin "AD8"
+			(uuid "a2b58207-0d3a-4ee6-9318-f270462cb685")
+		)
+		(pin "T23"
+			(uuid "14ee196c-3840-40be-9219-bd9161f4980c")
+		)
+		(pin "U24"
+			(uuid "2ba0d777-7ade-4d2e-af7b-0373efc56c84")
+		)
+		(pin "AD6"
+			(uuid "77a0bafa-faee-4db6-b782-0ce26d824e0f")
+		)
+		(pin "AB2"
+			(uuid "a736c3df-ac6d-4f73-9e5c-ed2391de4ee6")
+		)
+		(pin "AC5"
+			(uuid "2c6ed928-ee65-4166-80c4-9c28a8e9c246")
+		)
+		(pin "R1"
+			(uuid "84e5ba6d-1f84-4dc2-9c21-2d1675242974")
+		)
+		(pin "T2"
+			(uuid "b8d50db6-fdbd-4fd8-a2c0-84299e1a578c")
+		)
+		(pin "P2"
+			(uuid "7a57bfef-83e6-4eaf-aef3-5cef6ab72c61")
+		)
+		(pin "P23"
+			(uuid "1920366b-2264-4689-b3c0-ce65a4790c78")
+		)
+		(pin "R24"
+			(uuid "c2b98244-e851-4dba-ae09-db017f2a0440")
+		)
+		(pin "A22"
+			(uuid "88713ae2-ff75-4adc-9628-a5fd04de06f6")
+		)
+		(pin "AA24"
+			(uuid "df24cee7-02a2-4258-b279-af074dc45ab5")
+		)
+		(pin "N1"
+			(uuid "27358e7c-1faf-4ee4-b73f-d734370ec79e")
+		)
+		(pin "AD4"
+			(uuid "1774d793-1580-4982-a9fb-50a19f363717")
+		)
+		(pin "A23"
+			(uuid "0edcf9b2-122f-46b3-ad7d-60a5fd1695f1")
+		)
+		(pin "M2"
+			(uuid "b2eb7193-7d7e-4e72-913f-a5fc664915fe")
+		)
+		(pin "AC17"
+			(uuid "d630a94a-d6b3-448e-a7a0-048d7eb35bbd")
+		)
+		(pin "AC21"
+			(uuid "e9b35bcf-2feb-42f3-aab1-da7dbccc15fd")
+		)
+		(pin "AC15"
+			(uuid "a90f0de7-4c91-41ad-bba0-7e253cff0e0a")
+		)
+		(pin "AC19"
+			(uuid "3e321f52-5c93-477b-8c0b-5eb5cb468ac2")
+		)
+		(pin "AD10"
+			(uuid "296c5bbe-0607-4bff-bc86-7fe8653de513")
+		)
+		(pin "AC13"
+			(uuid "bb121645-8346-4dee-bcd7-13936e6456e2")
+		)
+		(pin "AC11"
+			(uuid "24700bc2-b476-4068-912a-efad38df9056")
+		)
+		(pin "AC9"
+			(uuid "cefef535-93f8-4db1-ac45-0a42465020b0")
+		)
+		(pin "A20"
+			(uuid "62d546ac-d4af-4071-b802-22a0d224fcb9")
+		)
+		(pin "A12"
+			(uuid "79c0c3bb-5648-4d2c-ac97-641511474256")
+		)
+		(pin "A16"
+			(uuid "4bb4350c-9882-4f88-8d0c-9517e99cc68a")
+		)
+		(pin "A10"
+			(uuid "5ff46960-d2bf-4030-8629-ecba5a196a38")
+		)
+		(pin "A14"
+			(uuid "55ac67f1-5aa9-4f80-a153-65e58ca45695")
+		)
+		(pin "A8"
+			(uuid "d89fed07-6d42-4660-a1f2-46fd299de803")
+		)
+		(pin "AC24"
+			(uuid "680251b5-bf29-4d82-8b27-54b847dd4a60")
+		)
+		(pin "B24"
+			(uuid "c8d89269-f02e-428d-b4ec-907cf85af2e8")
+		)
+		(pin "H23"
+			(uuid "9d3ea641-b0c2-426d-8cc3-b13d364fe7ba")
+		)
+		(pin "H2"
+			(uuid "0e271d8d-0029-4616-8f15-33d6669b7480")
+		)
+		(pin "AD2"
+			(uuid "6cc2bbfe-ada4-47bf-b1ab-7b281c1a04f2")
+		)
+		(pin "AD14"
+			(uuid "637d229b-24ff-4d52-8f6f-7ad0c2649623")
+		)
+		(pin "G1"
+			(uuid "f808e6db-d10f-47e8-8b53-d60d2516194d")
+		)
+		(pin "F2"
+			(uuid "91ecad34-1ce3-4f5c-9438-94783f3b11cd")
+		)
+		(pin "D2"
+			(uuid "d32bc581-7cd3-4fbd-8178-f955c650e181")
+		)
+		(pin "B19"
+			(uuid "422cee2d-1352-4fcf-b1da-8313f85cb56b")
+		)
+		(pin "AD23"
+			(uuid "98474cd3-c30e-430b-a6b2-235e74a58316")
+		)
+		(pin "B1"
+			(uuid "e70a17e0-6441-44a1-bfdd-c920b927c026")
+		)
+		(pin "B17"
+			(uuid "2f298546-feb4-4edf-a0fb-8bb181ee1e8f")
+		)
+		(pin "B3"
+			(uuid "4062a40f-0b02-45e1-ab76-e0cfb254def7")
+		)
+		(pin "B15"
+			(uuid "b16289f3-73d5-4a1d-bcf5-6fd250b62df7")
+		)
+		(pin "V23"
+			(uuid "dadfe2e2-749d-4a36-bc5a-276847089ab9")
+		)
+		(pin "B13"
+			(uuid "f48679e1-6750-4959-9b39-3d714104aaff")
+		)
+		(pin "B5"
+			(uuid "3a86baf2-ffbf-4e08-ad1a-03640cbed0ae")
+		)
+		(pin "B11"
+			(uuid "af9497af-827f-46cf-a20d-0f4535363861")
+		)
+		(pin "B7"
+			(uuid "fa4d48fe-f1ce-40ec-bc37-8595064dd140")
+		)
+		(pin "B9"
+			(uuid "ddc7cc8f-dade-4fd4-82aa-639951c81bf2")
+		)
+		(pin "AD22"
+			(uuid "d4aca008-bf53-457b-8105-f32555b66ae5")
+		)
+		(pin "C1"
+			(uuid "b5f675a7-7c3c-42a9-872c-a3215165e445")
+		)
+		(pin "AD20"
+			(uuid "11ef766a-375c-4aec-8ade-0aeaaa7d06a0")
+		)
+		(pin "AD12"
+			(uuid "84634584-2c81-4ce1-a133-b534e90fc0ed")
+		)
+		(pin "AD16"
+			(uuid "1bb64b48-bba3-45f4-8d72-d4c4ee3fdb2a")
+		)
+		(pin "AD18"
+			(uuid "56c10264-a55e-4c65-8a03-3548f0803b68")
+		)
+		(pin "D23"
+			(uuid "592aeb52-1379-4628-9831-9afc2c2e960d")
+		)
+		(pin "E24"
+			(uuid "1c38e5a1-ce7e-4c27-8d2b-11459b7f7767")
+		)
+		(pin "EXP"
+			(uuid "4cec822b-0f6e-4e0c-a52c-7d5ad15e6ae6")
+		)
+		(pin "J1"
+			(uuid "633284c2-54fd-4d28-8b00-8a8dac999061")
+		)
+		(pin "W24"
+			(uuid "13e76d52-17bf-4b7f-8a72-b543a8efa66b")
+		)
+		(pin "A18"
+			(uuid "936cdea5-16bc-4185-8d78-850ffa62821f")
+		)
+		(pin "L1"
+			(uuid "67ad27a5-fe0b-4a48-8434-2cbe89abdf61")
+		)
+		(pin "W1"
+			(uuid "11263259-967c-4d6b-b6d3-c8fdb41c875e")
+		)
+		(pin "Y2"
+			(uuid "4d8864aa-7625-4722-97b4-e3fbf1b6e02c")
+		)
+		(pin "K2"
+			(uuid "637a1380-4b1a-4d62-8e14-88b4556f2c55")
+		)
+		(pin "J24"
+			(uuid "ed0bc741-ec0c-45a2-942c-401f81958b78")
+		)
+		(pin "L24"
+			(uuid "25a5958b-68b0-4ddf-bc7e-e46852443b2e")
+		)
+		(pin "F23"
+			(uuid "d0f38b77-0178-48e2-9f3a-a8aaac3723c2")
+		)
+		(pin "N24"
+			(uuid "c7992f73-0621-4664-8909-ad83ce53cfb0")
+		)
+		(instances
+			(project "mouse-pcb"
+				(path "/3341f31b-1410-468e-af85-c0c55403a085"
+					(reference "U2")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 246.38 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cd4ced4f-7574-42bf-a20f-114561986805")
+		(property "Reference" "#PWR051"
+			(at 246.38 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 246.3801 176.53 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 246.38 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5349ef3-4417-4b61-9772-2e01f09c4d77")
+		)
+		(instances
+			(project "mouse-pcb"
+				(path "/3341f31b-1410-468e-af85-c0c55403a085"
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -16107,6 +16883,84 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
+		(at 430.53 57.15 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d8f6e69e-0492-4842-8221-e92f887ed0c8")
+		(property "Reference" "#PWR054"
+			(at 430.53 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 430.53 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 430.53 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 430.53 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 430.53 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f695f39-d260-4fc9-a2fd-83748b213667")
+		)
+		(instances
+			(project "mouse-pcb"
+				(path "/3341f31b-1410-468e-af85-c0c55403a085"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+1V8")
 		(at 83.82 38.1 0)
 		(mirror y)
 		(unit 1)
@@ -16882,6 +17736,447 @@
 			(project "mouse-pcb"
 				(path "/3341f31b-1410-468e-af85-c0c55403a085"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mouse_library:NRF52840-QIAA-R7")
+		(at 168.91 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f13aeba9-528a-465e-a8a8-2fd69df24666")
+		(property "Reference" "U2"
+			(at 168.91 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NRF52840-QIAA-R7"
+			(at 168.91 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mouse_library:NORDIC_NRF52840-QIAA-R7"
+			(at 168.91 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C190794.pdf"
+			(at 168.91 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "IC RF TxRx + MCU 802.15.4, Bluetooth Bluetooth v5.0, Thread, Zigbee® 2.4GHz 73-VFQFN Dual Rows, Exposed Pad"
+			(at 168.91 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Nordic Semiconductor"
+			(at 168.91 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.85mm"
+			(at 168.91 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "QFN-73 Nordic Semiconductor"
+			(at 168.91 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 168.91 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/NRF52840-QIAA-R7/Nordic+Power/view-part/?ref=eda"
+			(at 168.91 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC 7351B"
+			(at 168.91 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "1.2"
+			(at 168.91 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/NRF52840-QIAA-R7/Nordic+Power/view-part/?ref=snap"
+			(at 168.91 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "NRF52840-QIAA-R"
+			(at 168.91 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 168.91 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Nordic Semiconductor"
+			(at 168.91 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "LCSC_PART_NUMBER" "C190794"
+			(at 168.91 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "Y23"
+			(uuid "33456a9f-f02d-4f69-b7f8-7d19332757f3")
+		)
+		(pin "U1"
+			(uuid "0ca93bed-651b-4093-a853-c36f66f9e8fe")
+		)
+		(pin "AD8"
+			(uuid "a2b58207-0d3a-4ee6-9318-f270462cb685")
+		)
+		(pin "T23"
+			(uuid "14ee196c-3840-40be-9219-bd9161f4980c")
+		)
+		(pin "U24"
+			(uuid "2ba0d777-7ade-4d2e-af7b-0373efc56c84")
+		)
+		(pin "AD6"
+			(uuid "77a0bafa-faee-4db6-b782-0ce26d824e0f")
+		)
+		(pin "AB2"
+			(uuid "a736c3df-ac6d-4f73-9e5c-ed2391de4ee6")
+		)
+		(pin "AC5"
+			(uuid "2c6ed928-ee65-4166-80c4-9c28a8e9c246")
+		)
+		(pin "R1"
+			(uuid "84e5ba6d-1f84-4dc2-9c21-2d1675242974")
+		)
+		(pin "T2"
+			(uuid "b8d50db6-fdbd-4fd8-a2c0-84299e1a578c")
+		)
+		(pin "P2"
+			(uuid "7a57bfef-83e6-4eaf-aef3-5cef6ab72c61")
+		)
+		(pin "P23"
+			(uuid "1920366b-2264-4689-b3c0-ce65a4790c78")
+		)
+		(pin "R24"
+			(uuid "c2b98244-e851-4dba-ae09-db017f2a0440")
+		)
+		(pin "A22"
+			(uuid "88713ae2-ff75-4adc-9628-a5fd04de06f6")
+		)
+		(pin "AA24"
+			(uuid "df24cee7-02a2-4258-b279-af074dc45ab5")
+		)
+		(pin "N1"
+			(uuid "27358e7c-1faf-4ee4-b73f-d734370ec79e")
+		)
+		(pin "AD4"
+			(uuid "1774d793-1580-4982-a9fb-50a19f363717")
+		)
+		(pin "A23"
+			(uuid "0edcf9b2-122f-46b3-ad7d-60a5fd1695f1")
+		)
+		(pin "M2"
+			(uuid "b2eb7193-7d7e-4e72-913f-a5fc664915fe")
+		)
+		(pin "AC17"
+			(uuid "d630a94a-d6b3-448e-a7a0-048d7eb35bbd")
+		)
+		(pin "AC21"
+			(uuid "e9b35bcf-2feb-42f3-aab1-da7dbccc15fd")
+		)
+		(pin "AC15"
+			(uuid "a90f0de7-4c91-41ad-bba0-7e253cff0e0a")
+		)
+		(pin "AC19"
+			(uuid "3e321f52-5c93-477b-8c0b-5eb5cb468ac2")
+		)
+		(pin "AD10"
+			(uuid "296c5bbe-0607-4bff-bc86-7fe8653de513")
+		)
+		(pin "AC13"
+			(uuid "bb121645-8346-4dee-bcd7-13936e6456e2")
+		)
+		(pin "AC11"
+			(uuid "24700bc2-b476-4068-912a-efad38df9056")
+		)
+		(pin "AC9"
+			(uuid "cefef535-93f8-4db1-ac45-0a42465020b0")
+		)
+		(pin "A20"
+			(uuid "62d546ac-d4af-4071-b802-22a0d224fcb9")
+		)
+		(pin "A12"
+			(uuid "79c0c3bb-5648-4d2c-ac97-641511474256")
+		)
+		(pin "A16"
+			(uuid "4bb4350c-9882-4f88-8d0c-9517e99cc68a")
+		)
+		(pin "A10"
+			(uuid "5ff46960-d2bf-4030-8629-ecba5a196a38")
+		)
+		(pin "A14"
+			(uuid "55ac67f1-5aa9-4f80-a153-65e58ca45695")
+		)
+		(pin "A8"
+			(uuid "d89fed07-6d42-4660-a1f2-46fd299de803")
+		)
+		(pin "AC24"
+			(uuid "680251b5-bf29-4d82-8b27-54b847dd4a60")
+		)
+		(pin "B24"
+			(uuid "c8d89269-f02e-428d-b4ec-907cf85af2e8")
+		)
+		(pin "H23"
+			(uuid "9d3ea641-b0c2-426d-8cc3-b13d364fe7ba")
+		)
+		(pin "H2"
+			(uuid "0e271d8d-0029-4616-8f15-33d6669b7480")
+		)
+		(pin "AD2"
+			(uuid "6cc2bbfe-ada4-47bf-b1ab-7b281c1a04f2")
+		)
+		(pin "AD14"
+			(uuid "637d229b-24ff-4d52-8f6f-7ad0c2649623")
+		)
+		(pin "G1"
+			(uuid "f808e6db-d10f-47e8-8b53-d60d2516194d")
+		)
+		(pin "F2"
+			(uuid "91ecad34-1ce3-4f5c-9438-94783f3b11cd")
+		)
+		(pin "D2"
+			(uuid "d32bc581-7cd3-4fbd-8178-f955c650e181")
+		)
+		(pin "B19"
+			(uuid "422cee2d-1352-4fcf-b1da-8313f85cb56b")
+		)
+		(pin "AD23"
+			(uuid "98474cd3-c30e-430b-a6b2-235e74a58316")
+		)
+		(pin "B1"
+			(uuid "e70a17e0-6441-44a1-bfdd-c920b927c026")
+		)
+		(pin "B17"
+			(uuid "2f298546-feb4-4edf-a0fb-8bb181ee1e8f")
+		)
+		(pin "B3"
+			(uuid "4062a40f-0b02-45e1-ab76-e0cfb254def7")
+		)
+		(pin "B15"
+			(uuid "b16289f3-73d5-4a1d-bcf5-6fd250b62df7")
+		)
+		(pin "V23"
+			(uuid "dadfe2e2-749d-4a36-bc5a-276847089ab9")
+		)
+		(pin "B13"
+			(uuid "f48679e1-6750-4959-9b39-3d714104aaff")
+		)
+		(pin "B5"
+			(uuid "3a86baf2-ffbf-4e08-ad1a-03640cbed0ae")
+		)
+		(pin "B11"
+			(uuid "af9497af-827f-46cf-a20d-0f4535363861")
+		)
+		(pin "B7"
+			(uuid "fa4d48fe-f1ce-40ec-bc37-8595064dd140")
+		)
+		(pin "B9"
+			(uuid "ddc7cc8f-dade-4fd4-82aa-639951c81bf2")
+		)
+		(pin "AD22"
+			(uuid "d4aca008-bf53-457b-8105-f32555b66ae5")
+		)
+		(pin "C1"
+			(uuid "b5f675a7-7c3c-42a9-872c-a3215165e445")
+		)
+		(pin "AD20"
+			(uuid "11ef766a-375c-4aec-8ade-0aeaaa7d06a0")
+		)
+		(pin "AD12"
+			(uuid "84634584-2c81-4ce1-a133-b534e90fc0ed")
+		)
+		(pin "AD16"
+			(uuid "1bb64b48-bba3-45f4-8d72-d4c4ee3fdb2a")
+		)
+		(pin "AD18"
+			(uuid "56c10264-a55e-4c65-8a03-3548f0803b68")
+		)
+		(pin "D23"
+			(uuid "592aeb52-1379-4628-9831-9afc2c2e960d")
+		)
+		(pin "E24"
+			(uuid "1c38e5a1-ce7e-4c27-8d2b-11459b7f7767")
+		)
+		(pin "EXP"
+			(uuid "4cec822b-0f6e-4e0c-a52c-7d5ad15e6ae6")
+		)
+		(pin "J1"
+			(uuid "633284c2-54fd-4d28-8b00-8a8dac999061")
+		)
+		(pin "W24"
+			(uuid "13e76d52-17bf-4b7f-8a72-b543a8efa66b")
+		)
+		(pin "A18"
+			(uuid "936cdea5-16bc-4185-8d78-850ffa62821f")
+		)
+		(pin "L1"
+			(uuid "67ad27a5-fe0b-4a48-8434-2cbe89abdf61")
+		)
+		(pin "W1"
+			(uuid "11263259-967c-4d6b-b6d3-c8fdb41c875e")
+		)
+		(pin "Y2"
+			(uuid "4d8864aa-7625-4722-97b4-e3fbf1b6e02c")
+		)
+		(pin "K2"
+			(uuid "637a1380-4b1a-4d62-8e14-88b4556f2c55")
+		)
+		(pin "J24"
+			(uuid "ed0bc741-ec0c-45a2-942c-401f81958b78")
+		)
+		(pin "L24"
+			(uuid "25a5958b-68b0-4ddf-bc7e-e46852443b2e")
+		)
+		(pin "F23"
+			(uuid "d0f38b77-0178-48e2-9f3a-a8aaac3723c2")
+		)
+		(pin "N24"
+			(uuid "c7992f73-0621-4664-8909-ad83ce53cfb0")
+		)
+		(instances
+			(project "mouse-pcb"
+				(path "/3341f31b-1410-468e-af85-c0c55403a085"
+					(reference "U2")
 					(unit 1)
 				)
 			)
