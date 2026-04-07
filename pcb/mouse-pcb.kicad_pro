@@ -58,6 +58,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.1016,
+          "via_gap": 0.1016,
+          "width": 0.11176
         }
       ],
       "drc_exclusions": [],
@@ -507,7 +512,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -828,7 +833,7 @@
         "uuid": "3341f31b-1410-468e-af85-c0c55403a085"
       }
     ],
-    "used_designators": "#PWR51-55,U2-3",
+    "used_designators": "J2,R5-7,C28-29,#PWR60-72,U4",
     "variants": []
   },
   "sheets": [
